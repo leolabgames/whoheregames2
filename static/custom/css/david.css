@@ -60,6 +60,48 @@ section {
     -webkit-animation-delay: 1s;
 }
 
+.bg-light-gray {
+    background-color: lightgrey;
+}
+.bg-dark-grey {
+    background: darkgrey;
+}
+
+.bg-gray {
+    padding: 20px 0px;
+    background: grey;
+}
+
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+ul.social-buttons li a {
+    display: block;
+    background-color: dimgrey;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: yellow;
+    color: grey;
+}
+
+
+
+
+
+
 
 h1,
 h2,
@@ -100,3 +142,84 @@ li{list-style-type:none}
     font-weight: 300;
 }
 
+
+.navbar-custom {
+    background-color: grey;
+    border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+    color: yellow;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+    color: yellow;
+}
+.navbar-custom .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+    background-color: yellow;
+    border-color: yellow;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: yellow;
+    color: grey;
+}
+.navbar-custom .nav li a {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+    color: yellow;
+    outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+    border-radius: 0;
+    color: grey;
+    background-color: yellow;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: grey;
+    background-color: yellow;
+}
+@media (min-width: 768px) {
+    .navbar-custom {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        border: none;
+    }
+    .navbar-custom .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .navbar-custom .navbar-nav > .active > a {
+        border-radius: 3px;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-custom.affix {
+        background-color: grey;
+        padding: 10px 0;
+    }
+    .navbar-custom.affix .navbar-brand {
+        font-size: 1.5em;
+    }
+}
