@@ -1,0 +1,7 @@
+# IntelliJ stuff
+*.idea
+*.iml
+
+# Apple garbage
+*.DS_Store
+
