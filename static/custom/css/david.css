@@ -49,6 +49,10 @@ section {
     /*color: dimgrey;*/
 }
 
+.social-icon {
+    width: 25%;
+    height: 25%;
+}
 
 .delay-25 {
     -webkit-animation-delay: .25s;
@@ -222,4 +226,27 @@ li{list-style-type:none}
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em;
     }
+}
+
+/* Animate */
+.rotate{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+
+    overflow:hidden;
+
+}
+
+.rotate:hover
+{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
 }
