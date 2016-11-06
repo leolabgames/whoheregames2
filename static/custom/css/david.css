@@ -3,7 +3,7 @@
 */
 
 .intro-background {
-  opacity: 0.75;
+  opacity: 0.55;
   filter: blur(20px);
   filter: brightness(20%);
 }
@@ -132,7 +132,7 @@ body {
     font-size: 16px;
     line-height: 1.72222;
     color: #34495e;
-    background-color: #ffffff;
+    background-color: dimgrey;
 }
 
 li{list-style-type:none}
