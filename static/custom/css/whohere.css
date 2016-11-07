@@ -35,12 +35,18 @@
     height: 100%;
     width: auto;
 }
+.nav-mini-logo:hover{
+    -moz-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+}
 
 .card-sample {
   border-radius: 25px;
   padding:1px;
   border:1px solid dimgrey;
 }
+
 
 section {
     padding-top: 50px;
@@ -255,3 +261,4 @@ li{list-style-type:none}
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
 }
+
