@@ -60,6 +60,13 @@ section {
     /*color: dimgrey;*/
 }
 
+.social-title {
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    /*color: dimgrey;*/
+}
+
 .social-icon {
     width: 25%;
     height: 25%;
