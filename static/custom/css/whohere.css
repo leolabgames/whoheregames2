@@ -235,6 +235,9 @@ li{list-style-type:none}
     .navbar-custom .navbar-nav > .active > a {
         border-radius: 3px;
     }
+    /*h2 {*/
+        /*font-size: small;*/
+    /*}*/
 }
 @media (min-width: 768px) {
     .navbar-custom.affix {
@@ -244,7 +247,23 @@ li{list-style-type:none}
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em;
     }
+    /*h2 {*/
+        /*font-size: small;*/
+    /*}*/
 }
+
+
+@media (min-width: 320px) {
+    h2 {
+        font-size: 10px;
+    }
+}
+@media (min-width: 600px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
 
 /* Animate */
 .rotate{
