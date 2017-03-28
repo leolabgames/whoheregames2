@@ -288,3 +288,26 @@ li{list-style-type:none}
     -o-transform:rotate(360deg);
 }
 
+
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item {
+    /*flex-basis: 100%;*/
+    /*width: 140px;*/
+    /*height: 140px;*/
+    margin: 1%;
+    padding: 1%;
+    background-color: transparent;
+    /*display: inline-block;*/
+    /*margin-right: 20px;*/
+
+}
+
+.nav-icon{
+    font-size: 8pt;
+}
