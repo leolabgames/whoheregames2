@@ -3,6 +3,14 @@
  * Copyright 2016 WhoHereGames
  */
 
+.into-amazon{
+    margin-top: 10%;
+    margin-left: 50%;
+    /*margin-right: 50%;*/
+    /*text-align: center;*/
+    /*text-wrap: none;*/
+    font-size: large;
+}
 
 .intro-background {
   opacity: 0.55;
