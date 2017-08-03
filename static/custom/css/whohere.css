@@ -20,12 +20,12 @@
 
 .intro-logo-container {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 50%;
-    left:50%;
-    padding: 25%;
-    transform: translate(-50%,-50%);
+    /*width: 100%;*/
+    /*height: 100%;*/
+    left: 40%;
+    top: 10%;
+    padding: 10%;
+    /*transform: translate(-50%,-50%);*/
 }
 
 .intro-logo {
@@ -90,16 +90,18 @@ section {
     -webkit-animation-delay: 1.25s;
 }
 
+.bg-white {
+    background-color: #ffffff;
+}
 .bg-light-gray {
-    background-color: lightgrey;
+    background-color: whitesmoke;
 }
 .bg-dark-grey {
-    background: darkgrey;
+    background: lightgrey;
 }
-
 .bg-gray {
     padding: 20px;
-    background: grey;
+    background: lightgrey;
 }
 
 
@@ -222,12 +224,12 @@ li{list-style-type:none}
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-    color: grey;
+    color: lightgrey;
     background-color: yellow;
 }
 @media (min-width: 768px) {
     .navbar-custom {
-        background-color: transparent;
+        background-color: grey;
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
@@ -324,3 +326,8 @@ li{list-style-type:none}
 .nav-icon{
     font-size: 8pt;
 }
+
+.product-image {
+    background: url(media/img/whohere_product.jpg);
+}
+
